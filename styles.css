@@ -1,0 +1,15 @@
+/* CSS Template */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.chart {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background-color: lightgray;
+}

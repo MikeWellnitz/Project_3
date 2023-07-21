@@ -2,11 +2,12 @@
 import pandas as pd
 import sqlite3
 import numpy as np
+import json
 from flask import Flask, jsonify, send_file
 from flask_cors import CORS
 
 # Load the Dataframe
-df = pd.read_csv('project_data.csv')
+df = pd.read_csv('project_data_with_locations.csv')
 
 # Dataset Cleaning
 # Code to drop duplicates in the DataFrame
@@ -66,7 +67,7 @@ CORS(app)
 # Load the dataset for the API
 @app.route('/api/data', methods=['GET'])
 def get_data():
-    df_api = pd.read_csv('project_data.csv')
+    df_api = pd.read_csv('project_data_with_locations.csv')
     data = df_api.to_dict(orient='records')
     
     # Calculate summary statistics
@@ -89,8 +90,11 @@ def get_data():
         "correlation_matrix": correlation_matrix,
         "summary_stats": summary_stats
     }
-    
+
+    # with open("data.json", "w") as file: 
+    #     json.dump(result, file)
+
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

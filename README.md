@@ -1,4 +1,4 @@
-# Project 3 - Utility Consumption
+# Project 3 - Understanding Utility Usage of Multi-Family Housing in the United States
 
 Team members: Navyasri Pusuluri, Kirsten Rain, Crystal Rosenbrook, Mark Waananen, Mike Wellnitz  
 
@@ -53,9 +53,8 @@ The frontend uses JavaScript along with d3.js, Plotly.js, and Chart.js libraries
     Full Listing:
 * Excel
 * Jupyter Notebook
-*
-* other Python libraries?
-*
+* Numpy
+* Pandas
 * MongoDB
 * PyMongo
 * BSON

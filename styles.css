@@ -1,0 +1,31 @@
+#menu > select {
+    border-radius: 5px 15px;
+    background: #87CEFA;
+    padding: 8px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#yearDropdown > option {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#majorTypeDropdown > option {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}

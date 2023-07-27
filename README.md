@@ -1,7 +1,5 @@
 # Project 3 - Understanding Utility Usage of Multi-Family Housing in the United States
 
-Team members: Navyasri Pusuluri, Kirsten Rain, Crystal Rosenbrook, Mark Waananen, Mike Wellnitz  
-
 ## Project Requirements:
 
 1.  Your visualization must include a Python Flask-powered API, HTML/CSS, JavaScript, and at 

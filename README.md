@@ -30,7 +30,7 @@
 
 ## Inspiration
 
-The launching point of this project was inspired by taking an actual project proposed to a group member's employer and seeing if we could replace an outdated platform (what is/was the name of this platform) for less time and money than a million dollar development team. The data provided to us was meant to only be dissected _____________________, and we wanted to show that it could be presented in a much better way. The motivation behind this project was to see if we could  
+The launching point of this project was inspired by taking an actual project proposed to a group member's employer and seeing if we could replace an outdated platform for less time and money than a million dollar development team. 
 
 ## Project Description
 
@@ -38,11 +38,11 @@ The application is a data visualization tool for energy usage data. It fetches d
 
 ## Dataset Overview
 
-Our dataset was derived from an MS Excel file (project_data_with_locations.xlsx) containing the monthly costs and utility usage of ______________________ (apartments/homes/residences/dwellings/apartments/multifamily housing units). The actual names of the residences were substituted with a randomly assigned named to keep the data anonymous. All data gathered is from the years 2021-2023 and is listed as the monthly utility charges and usage for each multifamily building. 
+Our dataset was derived from an MS Excel file (project_data_with_locations.xlsx) containing the monthly costs and utility usage from multi-family housing across the United States. The actual names of the residences were substituted with a randomly assigned named to keep the data anonymous. All data gathered is from the years 2021-2023 and is listed as the monthly utility charges and usage for each multifamily building. 
 
 ## Data Cleaning and Storage
 
-The Excel file was loaded and cleaned using Jupyter Notebook. This cleaned dataframe was then loaded into MongoDB so that it could then be imported into Flask to be used interactively in conjunction with GitHub Pages. 
+The Excel file was loaded and cleaned using Python in Jupyter Notebook. This cleaned dataframe was then loaded into MongoDB so that it could then be imported into Flask to be used interactively in conjunction with GitHub Pages. 
 
 ## Software, Languages, and Libraries
 This application uses Python, Flask, MongoDB, JavaScript, and HTML/CSS. Python with Flask is used to create an API endpoint to serve the data. MongoDB is used for storing and retrieving the data. JavaScript is used to fetch the data from the API, manipulate it, and render the charts. HTML/CSS is used for the structure and style of the webpage.

@@ -24,7 +24,7 @@
 - [Software, Languages, and Libraries](#software-languages-and-libraries)
 - [Final Visualizations](#final-visualizations)
 - [Further Tasks, Questions, and Research](#further-tasks-questions-and-research)
-- [contributing Team Members](#contributing-team-members)
+- [Contributing Team Members](#contributing-team-members)
 - [Acknowledgements](#acknowledgements)
 
 

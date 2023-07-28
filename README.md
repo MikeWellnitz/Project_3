@@ -42,7 +42,7 @@ Our dataset was derived from an MS Excel file (project_data_with_locations.xlsx)
 
 ## Data Cleaning and Storage
 
-The Excel file was loaded and cleaned using Python in Jupyter Notebook. This cleaned dataframe was then loaded into MongoDB so that it could then be imported into Flask to be used interactively in conjunction with GitHub Pages. 
+The Excel file was converted to a Pandas Dataframe to be cleaned. It was then converted to a CSV file to be able to import into MongoDB, and subsequently be used by Flask. For the purpose of hosting on GitHub Pages, we skipped the Flask API and instead consumed the JSON file directly with our JavaScript for deployment. 
 
 ## Software, Languages, and Libraries
 This application uses Python, Flask, MongoDB, JavaScript, and HTML/CSS. Python with Flask is used to create an API endpoint to serve the data. MongoDB is used for storing and retrieving the data. JavaScript is used to fetch the data from the API, manipulate it, and render the charts. HTML/CSS is used for the structure and style of the webpage.
@@ -67,7 +67,7 @@ The frontend uses JavaScript along with d3.js, Plotly.js, and Chart.js libraries
 * GitHub Pages
 
 ## Final Visualizations
-The Line Chart and Bar Chart interaction can be done by using the dropdown menus at the top of the screen. The year dropdown menu filters the bar chart by the selected year. The location and utility type dropdown menus filter the line chart by the selected location and utility type.
+The Line Chart and Bar Chart interaction can be manipulated by using the dropdown menus at the top of the screen. The year dropdown menu filters the bar chart by the selected year. The location and utility type dropdown menus filter the line chart by the selected location and utility type.
 The value in the Scatterplot helps easily show the cost of water vs water consumption. Units with high cost and high consumption can then be addressed. 
 
 ## Further Tasks, Questions, and Research

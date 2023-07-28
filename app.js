@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
           
           maintainAspectRatio: false,
           responsive: true,
-          width: 800,
+          width: 1000,
           height: 600
           
           

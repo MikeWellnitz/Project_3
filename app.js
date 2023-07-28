@@ -193,11 +193,6 @@ d3.json("project_data.json").then(data => {
         }
       },
       
-      maintainAspectRatio: false,
-      responsive: true,
-      width: 2000,
-      height: 800,
-
       plugins: {
         tooltip: {
           callbacks: {

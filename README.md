@@ -38,7 +38,7 @@ The application is a data visualization tool for energy usage data. It fetches d
 
 ## Dataset Overview
 
-Our dataset was derived from an MS Excel file (project_data_with_locations.xlsx) containing the monthly costs and utility usage from multi-family housing across the United States. The actual names of the residences were substituted with a randomly assigned named to keep the data anonymous. All data gathered is from the years 2021-2023 and is listed as the monthly utility charges and usage for each multifamily building. 
+Our dataset was derived from an MS Excel file (project_data_with_locations.xlsx) containing the monthly costs and utility usage from multi-family housing across the United States. We have permission to use this data for sales pitches and demos. We chose to further de-identify the data for a broader public audience by substituting the residence names with a randomly assigned name. All data gathered is from the years 2021-2023 and is listed as the monthly utility charges and usage for each multifamily building. 
 
 ## Data Cleaning and Storage
 
